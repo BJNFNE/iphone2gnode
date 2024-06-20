@@ -1,7 +1,7 @@
 #include <cstdlib>   // for EXIT_SUCCESS, EXIT_FAILURE
 #include <cstdio>    // for fprintf, stderr
 #include <cstring>   // for strcmp
-#include "regex_replace.hpp"
+#include "regex_replace.h"
 
 int test() {
     char * r;
