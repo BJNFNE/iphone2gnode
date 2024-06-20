@@ -20,4 +20,9 @@ iphone2gnode is a FUSE-based filesystem designed for the iPhone notes applicatio
 ### Using g++
 Use the following command line (requires pkg-config):
 ```sh
-g++ $(pkg-config --cflags fuse sqlite3) -o iphone2gnode iphone2gnode.c -ggdb $(pkg-config --libs fuse sqlite3)
+g++ $(pkg-config --cflags fuse sqlite3) -o iphone2gnode iphone2gnode.cpp -ggdb $(pkg-config --libs fuse sqlite3)
+
+## Using Makefile
+1. Go to the root directory of the project.
+2. then type make and enter
+3. Compiling...
