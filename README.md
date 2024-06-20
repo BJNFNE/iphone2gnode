@@ -5,7 +5,7 @@ iphone2gnode is a FUSE-based filesystem designed for the iPhone notes applicatio
 
 ## Current Limitations
 - The iPhone must be jailbroken.
-- Only supports the iPhone 2G Notes database format.
+- Only supports the iPhone 2G database format.
 
 ## Required Development Packages
 - SQLite 3
